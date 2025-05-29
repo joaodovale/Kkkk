@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding:0% ;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .menu li{
+            list-style: none;/*limpar marcadores padão da lista UL ou OL*/
+            display: flex;/*Permite que o elementos sejam organizados de maneira flexivel*/
+            justify-content: space-around;
+            align-items: center;
+            background-color: lightskyblue;
+            padding: 10px 0;/*adciona 10pixes de espaçamento em cima e em baixo sem mudar as laterais*/
+            position: fixed;/* fixa o elemento na parte superior da tela*/
+            top: 0%;/* posiciona o elemento na parte superior da tela*/
+            width: 100%;/*faz com que os elementos fique acima de outros itens da tela*/
+            z-index: 1000;/*garante que os elementos fique acima de outros itens d
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li>inicio</li>
+        <li>sobre</li>
+        <li>perfil</li>
+        <li>contatos</li>
+    </ul>
+</body>
+</html>
